@@ -1,0 +1,31 @@
+graph G {
+
+Ingraham_Hall -- Bascom_Hall [label = "Observatory Dr" distance = 2]
+Van_Vleck_Hall -- Bascom_Hall [label = "Lincoln Dr" distance = 4]
+Sterling_Hall -- Chamberlin_Hall [label = "N Charter St" distance = 1]
+Ingraham_Hall -- Van_Vleck_Hall [label = "Lathrop Dr" distance = 4]
+Birge_Hall -- Van_Vleck_Hall [label = "Lincoln Dr" distance = 3]
+Lathrop_Hall -- Birge_Hall [label = "Lincoln Dr" distance = 2]
+Lathrop_Hall -- Barnard_Residence_Hall [label = "University Ave" distance = 2]
+Barnard_Residence_Hall -- Chadbourne_Residence_Hall [label = "N Park St" distance = 2]
+Chamberlin_Hall -- Barnard_Residence_Hall [label = "University Ave" distance = 5]
+Law_Building -- Birge_Hall [label = "Bascom Hall" distance = 3]
+Sterling_Hall -- Van_Vleck_Hall [label = "N Charter St" distance = 2]
+
+
+
+
+
+
+
+Ingraham_Hall [label= "Ingraham_Hall" size = 200];
+Bascom_Hall [label = "Bascom_Hall" size = 240];
+Van_Vleck_Hall [label = "Van_Vleck" size = 220];
+Sterling_Hall [label = "Sterling_Hall" size = 220];
+Birge_Hall [label = "Birge_Hall" size = 200];
+Chamberlin_Hall [label = "Chamberlin_Hall" size = 300];
+Lathrop_Hall [label = "Lathrop_Hall" size = 100];
+Law_Building [label = "Law_Building" size = 320];
+Chadbourne_Residence_Hall [label = "Chadbourne_Residence_Hall" size = 340];
+Barnard_Residence_Hall [label = "Barnard_Residence_Hall" size = 400];
+}
